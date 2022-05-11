@@ -68,6 +68,12 @@ submit {
     justify-content: space-around;
 }
 
+.paginas1 {
+    background: #95CDFF;
+    width: 100%;
+    height: 100vh;
+}
+
 .quadradoform {
     display: flex;
     justify-content: center;
