@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBEFFD;
+}
+
+.paginas {
+    width: 100%;
+    height: 100vh;
+}
+
+input,
+button,
+submit {
+    border: none;
+}
+
+.Box1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #1572DE;
+    background: #FEFBFB;
+    border-radius: 20px;
+    width: 25%;
+    height: 35%;
+    margin-top: 15%;
+}
+
+.botaoinciar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    color: #634FDB;
+    background: #95CDFF;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+.botao1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+.Inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.IMAGEM1 {
+    width: 38%;
+    height: 95%;
+}
+
+.tela1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.quadradoform {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 56%;
+    height: 890px;
+    background: #FCFBFB;
+    border-radius: 20px;
+}
+
+.quadrado1 {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho1 {
+    display: flex;
+    justify-content: center;
+}
