@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #EBEFFD;
+    background-color: #ebeffd;
 }
 
 .paginas {
@@ -23,10 +23,10 @@ submit {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 400;
-    color: #1572DE;
-    background: #FEFBFB;
+    color: #1572de;
+    background: #fefbfb;
     border-radius: 20px;
     width: 25%;
     height: 35%;
@@ -37,10 +37,11 @@ submit {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins';
-    color: #634FDB;
-    background: #95CDFF;
+    font-family: "Poppins";
+    color: #634fdb;
+    background: #95cdff;
     border-radius: 20px;
+    font-weight: 600;
     width: 150px;
     height: 40px;
 }
@@ -69,7 +70,7 @@ submit {
 }
 
 .paginas1 {
-    background: #95CDFF;
+    background: #95cdff;
     width: 100%;
     height: 100vh;
 }
@@ -80,7 +81,7 @@ submit {
     margin-top: 2%;
     width: 56%;
     height: 890px;
-    background: #FCFBFB;
+    background: #fcfbfb;
     border-radius: 20px;
 }
 
@@ -95,14 +96,57 @@ submit {
 }
 
 .borda1 {
-    background-color: #95CDFF;
+    background-color: #95cdff;
     width: 100%;
     height: 2%;
 }
 
 .bools {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     justify-content: space-around;
     gap: 50px;
+}
+
+.quadradoPergunta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 950px;
+    height: 82px;
+    border-radius: 15px;
+    background-color: #d5e5f2;
+    margin-top: 5%;
+}
+
+.Title1 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+label {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #1572de;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Perguntas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-family: "Poppins";
 }
